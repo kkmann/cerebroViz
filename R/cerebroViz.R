@@ -35,7 +35,7 @@ cerebroViz <- function(x, filePrefix = "cerebroViz_output", palette = NULL,
     regions <- c("A1C", "AMY", "ANG", "BS", "CAU", "CB", "CNG", "DFC",
         "FL", "HIP", "HTH", "IPC", "ITC", "M1C", "MED", "MFC", "OL", "OFC",
         "PL", "PIT", "PUT", "PON", "S1C", "SN", "STC", "STR", "TL", "THA",
-        "V1C", "VFC")
+        "V1C", "VFC", "NUC")
 
     if (class(x) != "matrix")
         stop("'x' must be of class 'matrix'.")
